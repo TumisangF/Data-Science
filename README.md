@@ -58,8 +58,6 @@ The most frequent hour is: 17
 Calculating The Most Popular Stations and Trip...
 .
 .
-.
-
 ```
 
 > **Note**
@@ -67,8 +65,14 @@ Calculating The Most Popular Stations and Trip...
 
 
 ## Download
+More softwares and Libraries used :
+- Python3
+- Numpy and Pandas
 
-CSV files from three major cities were used: [Chicago](https://ride.divvybikes.com/system-data), [New York City](https://www.citibikenyc.com/system-data) and [Washington](https://ride.capitalbikeshare.com/system-data).
+Data was imported as a csv file from:
+- [Chicago](https://ride.divvybikes.com/system-data)
+- [New York City](https://www.citibikenyc.com/system-data)
+- [Washington](https://ride.capitalbikeshare.com/system-data)
 
 ## Credits
 
