@@ -76,6 +76,8 @@ Data was imported as a csv file from:
 
 ## Credits
 
-Originaly forked from [Udacity’s GitHub Project repository](https://github.com/udacity/pdsnd_github).
+- Originaly forked from [Udacity’s GitHub Project repository](https://github.com/udacity/pdsnd_github)
+- Divvy bicycles Picture source : https://static.wixstatic.com/
+
 
 
