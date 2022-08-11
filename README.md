@@ -35,10 +35,10 @@ Running the application should provide an interactive experience like the one sh
 ```bash
 # Running the application
 $ ipython bikeshare.py
-Hello! Let us explore some US bikeshare data!
+Hello! Let us explore some US bikeshare data
 
 # Filtering by City
-Which city would you like to eplore?
+Which city would you like to eplore
 Chicago 
 Enter a month (e.g May)  or All to apply no filter
 February
