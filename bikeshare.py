@@ -150,6 +150,7 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     seconds = round(df['Trip Duration'].sum(axis=0))
     
+    # Converting time to days, hours, min and seconds
     day = seconds // (3600 * 24)
     hour = seconds // 3600 % 24
     min = seconds % 3600 // 60
