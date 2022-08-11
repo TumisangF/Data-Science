@@ -8,7 +8,7 @@
 </h1>
 
 
-<h4 align="center"><a href="https://divvybikes.com/" target="_blank">Divvy</a> is a bycle sharing system in the United States: Chicago, New York City and Washington.</h4>
+<h3 align="center"><a href="https://divvybikes.com/" target="_blank">Divvy</a> is a bycle sharing system in the United States: Chicago, New York City and Washington.</h3>
 
 
 <p align="center">
