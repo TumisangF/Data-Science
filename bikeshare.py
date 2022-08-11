@@ -150,17 +150,17 @@ def trip_duration_stats(df):
     # TO DO: display total travel time
     seconds = round(df['Trip Duration'].sum(axis=0))
     
-    d = seconds // (3600 * 24)
-    h = seconds // 3600 % 24
-    m = seconds % 3600 // 60
-    s = seconds % 3600 % 60
+    day = seconds // (3600 * 24)
+    hour = seconds // 3600 % 24
+    min = seconds % 3600 // 60
+    sec = seconds % 3600 % 60
 
-    if d > 0:
-        print(f'Total travel time is: {d} days, {h} hours, {m} minutes and {s} seconds')
-    elif h > 0:
-        print(f'Total travel time is: {h} hour, {m} minutes and {s} seconds')
-    elif m > 0:
-        print(f'Total travel time is: {m} minutes and {s} seconds')
+    if day > 0:
+        print(f'Total travel time is: {day} days, {hour} hours, {min} minutes and {sec} seconds')
+    elif hour > 0:
+        print(f'Total travel time is: {hour} hour, {min} minutes and {sec} seconds')
+    elif min > 0:
+        print(f'Total travel time is: {min} minutes and {sec} seconds')
 
     # TO DO: display mean travel time
     # TO DO: get rid of decimal numbers
