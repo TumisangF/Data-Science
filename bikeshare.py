@@ -224,8 +224,7 @@ def data(df):
     # TO DO: Display individual data
     df = df.drop('Unnamed: 0', axis =1)
 
-    start = 0
-    end = 5
+    start,end = 0,5
     while True:
         answer = input('Would you like to see data? \n').lower()
  
