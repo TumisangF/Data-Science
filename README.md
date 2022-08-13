@@ -35,7 +35,7 @@ Running the application should provide an interactive experience like the one sh
 ```bash
 # Running the application
 $ ipython bikeshare.py
-Hello! Let us explore some US bikeshare data
+Hello Let us explore some US bikeshare data
 
 # Filtering by City
 Which city would you like to eplore
@@ -56,8 +56,6 @@ The most frequent day of the week is: Friday
 The most frequent hour is: 17
 
 Calculating The Most Popular Stations and Trip...
-.
-.
 ```
 
 > **Note**
